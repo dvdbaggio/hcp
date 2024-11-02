@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\hcp.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\hcp.dir/objects.a @CMakeFiles\hcp.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\hcp.dir/objects.a -Wl,--no-whole-archive -o hcp.exe -Wl,--out-implib,libhcp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hcp.dir\linkLibs.rsp

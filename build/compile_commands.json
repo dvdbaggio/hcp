@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\hcp.dir\\main.cpp.obj -c C:\\Users\\david\\OneDrive\\Desktop\\UniPD\\Leiden\\SNACS\\hcp\\main.cpp",
+  "file": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/main.cpp",
+  "output": "CMakeFiles/hcp.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\hcp.dir\\hierarchical_model.cpp.obj -c C:\\Users\\david\\OneDrive\\Desktop\\UniPD\\Leiden\\SNACS\\hcp\\hierarchical_model.cpp",
+  "file": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/hierarchical_model.cpp",
+  "output": "CMakeFiles/hcp.dir/hierarchical_model.cpp.obj"
+},
+{
+  "directory": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\hcp.dir\\readgml.cpp.obj -c C:\\Users\\david\\OneDrive\\Desktop\\UniPD\\Leiden\\SNACS\\hcp\\readgml.cpp",
+  "file": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/readgml.cpp",
+  "output": "CMakeFiles/hcp.dir/readgml.cpp.obj"
+},
+{
+  "directory": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\hcp.dir\\indexed_list.cpp.obj -c C:\\Users\\david\\OneDrive\\Desktop\\UniPD\\Leiden\\SNACS\\hcp\\indexed_list.cpp",
+  "file": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/indexed_list.cpp",
+  "output": "CMakeFiles/hcp.dir/indexed_list.cpp.obj"
+},
+{
+  "directory": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\hcp.dir\\parameters.cpp.obj -c C:\\Users\\david\\OneDrive\\Desktop\\UniPD\\Leiden\\SNACS\\hcp\\parameters.cpp",
+  "file": "C:/Users/david/OneDrive/Desktop/UniPD/Leiden/SNACS/hcp/parameters.cpp",
+  "output": "CMakeFiles/hcp.dir/parameters.cpp.obj"
+}
+]
