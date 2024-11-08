@@ -1,6 +1,6 @@
-gml_path: Graphs/clique_cp.gml
+gml_path: Graphs/lesmiserables.gml
 max_itr: 50000000
 max_num_groups: 64
 initial_num_groups: 2
-saved_data_name: clique_cp
-save_directory: Outputs/clique_moregroups/
+saved_data_name: lesmiserables_cp
+save_directory: Outputs/lesmiserables_moregroups/
