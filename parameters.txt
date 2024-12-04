@@ -1,6 +1,6 @@
-gml_path: Graphs/dolphins.gml
+gml_path: Graphs/lesmiserables.gml
 max_itr: 50000000
 max_num_groups: 64
 initial_num_groups: 2
-saved_data_name: dolphins_cp
-save_directory: Outputs/dolphins_moregroups/
+saved_data_name: lesmiserables_cp
+save_directory: Outputs/lesmiserables/
