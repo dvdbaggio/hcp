@@ -1,0 +1,7 @@
+Binary Value 1: Nodes Beak, Beescratch, Bumper, CCL, Cross, DN63, Double, Fish, Five, Fork, Knit, MN23, MN60, Mus, Notch, Number1, Oscar, PL, Quasi, Ripplefluke, Shmuddel, SMN5, SN100, SN89, SN90, Thumper, TR120, TR77, TR82, TR88, TSN103, TSN83, Vau, Wave, Whitetip, Zap, Zig, Zipfel
+Binary Value 15: Nodes DN16
+Binary Value 3: Nodes DN21, Feather, Gallatin, Web
+Binary Value 5: Nodes Grin, Haecksel, Hook, Jonah, Kringel, MN105, MN83, Patchback, Scabs, SN4, SN9, Stripes, Topless, TR99, Trigger
+Binary Value 11: Nodes Jet, Upbang
+Binary Value 13: Nodes SN63
+Binary Value 9: Nodes SN96
