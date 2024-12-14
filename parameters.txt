@@ -1,6 +1,6 @@
-gml_path: Graphs/karate.gml
+gml_path: Graphs/dining.gml
 max_itr: 50000000
 max_num_groups: 5
 initial_num_groups: 2
-saved_data_name: karate_cp_5
-save_directory: Outputs/karate_5/
+saved_data_name: dining_cp_5
+save_directory: Outputs/dining_5/

@@ -6,7 +6,7 @@
 \usepackage{placeins}
 \usepackage{graphicx}
 \usepackage{todonotes}
-
+\usepackage{hyperref} 
 
 
 \AtBeginDocument{%
@@ -100,8 +100,8 @@ Building on these foundational studies, our research aims to assess the effectiv
 % Necessary notation, formal definitions, if needed theorems, and a problem statement. Explain nontrivial notation upon first use. If applicable, give a formal problem statement and say something about space and time complexity. 
 In this model, nodes are organized into overlapping groups, allowing for flexible membership across multiple categories. The rules for determining group membership and the probabilities of forming edges between nodes are described below. \\
 \begin{itemize}
-    \item Nodes can belong to any of the $k$ groups, which are labeled by $r = 0, ..., k - 1$ and all of them must also belong to group 0;
-    \item The notation used to describe if a node belongs to a specific group is the following: $g_u^r = 1$ if node $u$ belongs to group $r$, and $0$ otherwise;
+    \item Nodes can belong to any of the $k$ groups, which are labeled by $r = 0, ..., k - 1$ and all of them must also belong to group 0.
+    \item The notation used to describe if a node belongs to a specific group is the following: $g_u^r = 1$ if node $u$ belongs to group $r$, and $0$ otherwise.
     \item We use a set of probabilities, $\omega_r$, for each group including group 0. Edges are placed between node pairs independently with probability $\omega_r$, where $r$ is the highest common group that both nodes in the pair belong to, meaning the one with the highest number. For example, if one node belongs to groups 0, 1, 2 and another belongs to 0, 1, 3, then there is an edge between them with probability $\omega_1$.
 \end{itemize}
 \vspace{0.3cm}
@@ -114,12 +114,14 @@ The end result is a graph that has the following characteristics:
     \label{fig:general cp}
 \end{figure}
 \FloatBarrier
-\todo[inline]{Montecarlo theorem?}
+\todo[inline]{Should we explain also Montecarlo theorem?}
 
 
 \section{Approach}
 % Factually present your solution to the problem studied in the paper. This may include a repetition in your own words of the original paper that you studied. Strive to have at least one explanatory picture that explains the approach, perhaps using the tikz package, or more algorithmically using the algorithm(ic) package. Distinguish between previously introduced methods and your contribution clearly, for example by using subsections named after the various (components of the) approach(es).  
-
+To facilitate the use of the program provided by the authors of the paper \cite{hierarchical}, we have implemented a Jupyter notebook that allows for the easy execution of the algorithm on different datasets. This notebook was also made to address the challenge of interpreting the results produced by the original program, as they are not straightforward to analyze and it produces many \verb|.txt| files. 
+It also includes additional processing to clarify where nodes appear within the detected structures and can automatically plot a graph if the \verb|max_number_groups| is equal to 2 in the results. The notebook is available at the following \href[repository]{https://github.com/dvdbaggio/hcp}.
+\todo[inline]{to do}
 			
 \section{Data} \label{sec:data}
 % what datasets did you use, what types of networks do they represent, where did you obtain the data? did you do any processing? give a table describing data characteristics, such as number of nodes, edges, average degree, etc. 
@@ -152,15 +154,16 @@ As datasets, we use the following networks:
         \item Edges: 352.
     \end{itemize}
 \end{itemize}
-
+We intentionally focused on small to medium-sized networks to ensure the results were easily interpretable. This choice was also necessitated by the need to manually create network graphs, as no existing algorithm accurately plots hierarchical core-periphery structures. While we successfully developed an algorithm for plotting, its functionality is limited to networks with exactly two core-periphery groups, and extending it to handle multiple groups and subgroups remains a challenge.
 
 \section{Experiments}
 % Subsections on for example the experimental setup (which software, hardware and parameters did you choose), as well as the results of applying your approach to the data you described in preceding sections, leading to results that answer your research questions. You likely present some tables and figures. Remember captions and axis labels. 
 
 % Think of incorporating the followng: What experiments can be used to compare, test and verify the suggested approaches? What do you measure in each experiment? Quality, running time, error size? Be precise. For datasets that perform either very well or not so well, try to find out why. Zoom in with additional experiments on noticeable results.  Can you relate the performance of the algorithms to some of the properties of the datasets? Or: can you define for which particular datasets a certain technique works well, and why? Make sure that the type of data/result that you want to communicate is suitable for the chosen presentation mode.
 In this section we present the results of applying the hierarchical core-periphery detection algorithm to the datasets described in section \ref{sec:data}. 
-\\We ran the algorithm on each network setting the parameter \\\verb|max_num_groups| to 5, which allows for the detection of up to 5 core-periphery groups in each network.
+\\\\We ran the algorithm on each network setting the parameter \\\verb|max_num_groups| to 5, which allows for the detection of up to 5 core-periphery groups in each network.
 Please note that this means that the algorithm may detect fewer groups if the network does not contain enough structure to support the detection of 5 groups at the configuration with the smallest log-likelihood.
+\subsection{Museum dataset}
 \FloatBarrier
 \begin{figure}[h]
     \centering
@@ -171,12 +174,13 @@ Please note that this means that the algorithm may detect fewer groups if the ne
 \FloatBarrier
 \noindent In this graph we can observe that the algorithm detected 3 core-periphery groups in the museum network:
 \begin{itemize}
-    \item Group 0: lilac;
-    \item Group 1: cyan;
-    \item Group 2: orange/yellow.
+    \item Group 0: all nodes;
+    \item Group 1: lilac/cyan;
+    \item Group 2: lilac/orange/yellow.
 \end{itemize}
 The core-periphery structure is clearly visible, with the core nodes forming a dense cluster in the center of the network, while the peripheral nodes are located on the outskirts. The connections between the core and periphery are well defined, with the core nodes acting as bridges between the different groups.
 
+\subsection{Dolphins dataset}
 \FloatBarrier
 \begin{figure}[h]
     \centering
@@ -187,17 +191,18 @@ The core-periphery structure is clearly visible, with the core nodes forming a d
 \FloatBarrier
 \noindent In this graph we can observe that the algorithm detected 4 core-periphery groups in the dolphin network:
 \begin{itemize}
-    \item Group 0: light-blue;
-    \item Group 1: lilac/orange/yellow;
-    \item Group 2: pink/ocher/yellow;
-    \item Group 3: green/yellow/ocher/orange.
+    \item Group 0: all nodes;
+    \item Group 1: light-blue/lilac/orange/yellow;
+    \item Group 2: light-blue/pink/ocher/yellow;
+    \item Group 3: light-blue/green/yellow/ocher/orange.
 \end{itemize}
 This graph representation is well-structured as well, but is slightly more complex to interpret. The added complexity arises from the presence of an additional group and the fact that many nodes belong to multiple groups.
 
+\subsection{Karate dataset}
 \FloatBarrier
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{Img/karate 2 groups.png}
+    \includegraphics[width=0.95\linewidth, height=0.95\linewidth]{Img/karate 2 groups.png}
     \caption{CP karate dataset with 2 groups.}
     \label{fig:general cp}
 \end{figure}
@@ -207,16 +212,28 @@ This graph representation is well-structured as well, but is slightly more compl
     \item Group 0: purple;
     \item Group 1: yellow.
 \end{itemize}
-The core-periphery structure is clearly visible, but we are not convinced that the algorithm separated the groups correctly. The peripheral nodes have many edges with the core nodes (in particular nodes 1 and 34), while many core nodes have few connections with other core nodes. This is a clear sign that the algorithm did not assign the nodes to the correct groups.
+The core-periphery structure is clearly identifiable; however, we are not confident that the algorithm accurately separated the groups. Many peripheral nodes have numerous edges connecting them to core nodes (notably nodes 1, 33, and 34), while several core nodes exhibit only a few connections with other core nodes. This discrepancy suggests that the algorithm failed to assign nodes to the appropriate groups.
+Because of this, we used the same dataset with the community detection algorithm developed by Vincent D. Blondel et al. \cite{Community_detection} and we got the following result:
+\FloatBarrier
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.72\linewidth, height=0.72\linewidth]{Img/karate community detection.png}
+    \caption{Community detection karate dataset.}
+\end{figure}
+\FloatBarrier
+\noindent As we can see, the community detection algorithm identified 4 groups and the nodes seems to be more accurately assigned to the groups, as each community has strong connections between its nodes and weaker ones with the other communities.
 
+\subsection{xyz dataset}
 \todo[inline]{other datasets}
 
-\section{Conclusion}
-
+\section{Conclusions}
 % summarize in at most one column the main results of the paper, stating how you addressed the problem statement and how the experiments help understand whether  the approach works (or not). end with one or two short suggestions for future work. 
 
 % Think of the following: What was our problem statement again? (1 sentence) What was learned from the experiments? To what extend can the problem be solved? What works, what does not? What remain open problems? Can you give suggestions for future work in this area?
-
+The research conducted by Polanco and Newman \cite{hierarchical} provides a valuable contribution to the field of network science by introducing a method for detecting hierarchical core-periphery structures in networks. 
+This approach offers a more nuanced understanding of network organization, allowing for the identification of multiple nested core layers within a single network. 
+\\As demonstrated in the experiments section, while the algorithm effectively identifies core-periphery structures across a wide range of networks, it is not universally optimal for all datasets, as it may occasionally fail to assign nodes to their respective groups.
+\\Future improvements in this area could include developing an algorithm to effectively visualize subgroup structures, as this feature is currently absent. Enhancing network graph representations is crucial for comprehensive analysis and interpretation of the results.
 \begin{acks}
 % optional: acknowledgments, so people or organizations you wish to thank 
 \end{acks}
@@ -232,3 +249,4 @@ The core-periphery structure is clearly visible, but we are not convinced that t
 
 \end{document}
 \endinput
+
