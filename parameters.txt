@@ -1,6 +1,6 @@
-gml_path: Graphs/football.gml
+gml_path: Graphs/galesburg.gml
 max_itr: 50000000
 max_num_groups: 5
 initial_num_groups: 2
-saved_data_name: football_cp_5
-save_directory: Outputs/football_5/
+saved_data_name: galesburg_cp_5
+save_directory: Outputs/galesburg_5/
