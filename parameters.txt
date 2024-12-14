@@ -1,6 +1,6 @@
-gml_path: Graphs/dining.gml
+gml_path: Graphs/football.gml
 max_itr: 50000000
 max_num_groups: 5
 initial_num_groups: 2
-saved_data_name: dining_cp_5
-save_directory: Outputs/dining_5/
+saved_data_name: football_cp_5
+save_directory: Outputs/football_5/
