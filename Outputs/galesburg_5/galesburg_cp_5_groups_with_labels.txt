@@ -1,9 +1,9 @@
-Binary Value 11: Nodes v1, v4
-Binary Value 15: Nodes v6
-Binary Value 3: Nodes v2, v11, v3, v5
-Binary Value 25: Nodes v7
-Binary Value 1: Nodes v13
-Binary Value 5: Nodes v14, v9, v16
-Binary Value 7: Nodes v15, v18
-Binary Value 21: Nodes v8
-Binary Value 9: Nodes v12
+Binary Value 11010: Nodes v1, v4
+Binary Value 11110: Nodes v6
+Binary Value 11000: Nodes v2, v11, v3, v5
+Binary Value 10011: Nodes v7
+Binary Value 10000: Nodes v13
+Binary Value 10100: Nodes v14, v9, v16
+Binary Value 11100: Nodes v15, v18
+Binary Value 10101: Nodes v8
+Binary Value 10010: Nodes v12

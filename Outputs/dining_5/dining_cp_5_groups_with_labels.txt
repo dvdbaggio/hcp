@@ -1,6 +1,6 @@
-Binary Value 7: Nodes Ada, Louise, Jean, Lena, Eva, Martha, Adele, Hazel, Hilda, Ruth, Laura, Irene
-Binary Value 3: Nodes Cora, Maxine, Jane
-Binary Value 15: Nodes Marion, Anna, Betty, Edna, Mary
-Binary Value 11: Nodes Helen, Alice, Ella, Ellen
-Binary Value 1: Nodes Robin
-Binary Value 13: Nodes Frances
+Binary Value 11100: Nodes Ada, Louise, Jean, Lena, Eva, Martha, Adele, Hazel, Hilda, Ruth, Laura, Irene
+Binary Value 11000: Nodes Cora, Maxine, Jane
+Binary Value 11110: Nodes Marion, Anna, Betty, Edna, Mary
+Binary Value 11010: Nodes Helen, Alice, Ella, Ellen
+Binary Value 10000: Nodes Robin
+Binary Value 10110: Nodes Frances

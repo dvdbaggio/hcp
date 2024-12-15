@@ -1,2 +1,2 @@
-Binary Value 3: Nodes Peter, Biesheuvel, Hiddema, De, Heere, B., t, Hotz, Dirk, Hart, Donkers, Jong, F.B., Lidy, Van, Matsier, Nicolaas, Meinkema
-Binary Value 1: Nodes Oek, Heeresma, Maarten, Kooiman, Jan, Arie, Co, Guus, Joyce, Marissing, Ayelt, Andriesse, Luijters, &, Meijsing, Doeschka
+Binary Value 11000: Nodes Peter, Biesheuvel, Hiddema, De, Heere, B., t, Hotz, Dirk, Hart, Donkers, Jong, F.B., Lidy, Van, Matsier, Nicolaas, Meinkema
+Binary Value 10000: Nodes Oek, Heeresma, Maarten, Kooiman, Jan, Arie, Co, Guus, Joyce, Marissing, Ayelt, Andriesse, Luijters, &, Meijsing, Doeschka
