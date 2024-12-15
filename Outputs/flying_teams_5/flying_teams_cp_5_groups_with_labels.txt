@@ -1,0 +1,9 @@
+Binary Value 11110: Nodes c1, c3, c14, c12, c19
+Binary Value 11111: Nodes c2, c6, c21, c27, c16, c20, c22, c40, c26, c41, c47
+Binary Value 10110: Nodes c5, c9, c11, c17
+Binary Value 11100: Nodes c7, c15
+Binary Value 11011: Nodes c8, c43
+Binary Value 10111: Nodes c24, c25, c18, c36, c48
+Binary Value 11101: Nodes c10, c13, c39, c31, c32, c45, c33, c38, c23, c34, c42, c30, c35, c46
+Binary Value 10010: Nodes c4
+Binary Value 10101: Nodes c28, c37, c29, c44
