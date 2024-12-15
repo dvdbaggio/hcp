@@ -1,6 +1,6 @@
-gml_path: ./Graphs/lesmiserables.gml
+gml_path: ./Graphs/sw_ep3_interactions.gml
 max_itr: 50000000
 max_num_groups: 5
 initial_num_groups: 2
-saved_data_name: lesmiserables_cp_5
-save_directory: Outputs/lesmiserables_5/
+saved_data_name: sw_ep3_interactions_cp_5
+save_directory: Outputs/sw_ep3_interactions_5/
