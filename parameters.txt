@@ -1,6 +1,6 @@
-gml_path: ./Graphs/museum.gml
+gml_path: ./Graphs/flying_teams.gml
 max_itr: 50000000
 max_num_groups: 5
 initial_num_groups: 2
-saved_data_name: museum_cp_5
-save_directory: Outputs/museum_5/
+saved_data_name: flying_teams_cp_5
+save_directory: Outputs/flying_teams_5/
