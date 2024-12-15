@@ -1,0 +1,8 @@
+Binary Value 11000: Nodes Aemon, Grenn, Alliser, Mance, Craster, Eddison, Gilly, Janos, Dalla, Qhorin, Rattleshirt, Val, Ygritte
+Binary Value 11001: Nodes Samwell, Jon, Stannis
+Binary Value 10100: Nodes Aerys, Oberyn, Beric, Gregor, Sandor, Bronn, Podrick, Lysa, Elia, Ilyn, Meryn, Pycelle, Shae, Varys, Renly, Tommen, Kevan, Margaery, Myrcella, Olenna, Ellaria
+Binary Value 10101: Nodes Jaime, Tyrion, Tywin, Arya, Cersei, Joffrey, Loras, Sansa
+Binary Value 10011: Nodes Robert
+Binary Value 10000: Nodes Amory, Anguy, Gendry, Roose, Thoros, Illyrio, Hodor, Jojen, Luwin, Meera, Nan, Theon, Hoster, Jeyne, Karl, Aegon, Kraznys, Rakharo, Worm, Davos, Cressen, Salladhor, Qyburn, Bowen, Orell, Styr, Lancel, Marillion, Robert Arryn, Mace, Rickard, Ramsay, Chataya, Shireen, Doran, Walton
+Binary Value 10001: Nodes Bran, Brynden, Rickon, Balon, Brienne, Lothar, Walder, Catelyn, Edmure, Petyr, Robb, Roslin, Eddard, Melisandre
+Binary Value 10010: Nodes Belwas, Barristan, Daario, Drogo, Irri, Daenerys, Jorah, Missandei, Rhaegar, Viserys, Jon Arryn
