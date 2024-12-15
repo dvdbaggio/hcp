@@ -1,0 +1,9 @@
+Binary Value 10100: Nodes Myriel, MlleBaptistine, MmeMagloire, Geborand, OldMan, Scaufflaire, Woman2
+Binary Value 10000: Nodes Napoleon, CountessDeLo, Champtercier, Cravatte, Count, Labarre, Marguerite, MmeDeR, Isabeau, Gervais, Fauchelevent, Perpetue, Woman1, Pontmercy, Boulatruelle, Anzelma, MotherInnocent, Gribier, Jondrette, MmeBurgon, Magnon, MmePontmercy, MlleVaubois, BaronessT, MotherPlutarch, Toussaint, Child1, Child2
+Binary Value 11111: Nodes Valjean
+Binary Value 10001: Nodes Tholomyes, Listolier, Fameuil, Blacheville, Favourite, Dahlia, Bamatabois, Simplice, Judge, Champmathieu, Brevet, Chenildieu, Cochepaille
+Binary Value 10101: Nodes Zephine
+Binary Value 11001: Nodes Fantine
+Binary Value 11000: Nodes MmeThenardier, Thenardier, Javert, Eponine, Gavroche, Mabeuf, Enjolras, Combeferre, Prouvaire, Feuilly, Courfeyrac, Bahorel, Bossuet, Joly, Grantaire, Gueulemer, Babet, Claquesous, Montparnasse, Brujon, MmeHucheloup
+Binary Value 10010: Nodes Cosette, Gillenormand, MlleGillenormand, LtGillenormand
+Binary Value 11010: Nodes Marius
